@@ -1,6 +1,6 @@
 # Programming Language Suggester
 
-#### By Riley Shimp
+#### [Riley Shimp](https://www.github.com/rileyshimp)
 
 ## Technologies Used
 
