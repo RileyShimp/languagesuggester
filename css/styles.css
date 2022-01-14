@@ -7,7 +7,7 @@ header {
   text-align: center;
   border-bottom: solid black 1px;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .namebox {
@@ -40,8 +40,16 @@ label {
 }
 
 #result {
+  color: rgb(186, 13, 13);
   font-size: 5em;
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 400px;
+  padding-top: 20px;
   border-top: solid black 1px;
+}
+
+.nameresult {
+  color: black;
+  font-weight: bold
 }

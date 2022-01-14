@@ -18,19 +18,19 @@ function addTo(input) {
   $("#python").hide();
   $("#cSharp").hide();
   if (input === 0){
-    $("#ruby").show();
-    $("#message").show();
+    $("#ruby").fadeIn();
+    $("#message").fadeIn();
   }
   else if (input > 0 && input < 200){
-    $("#javascript").show();
-    $("#message").show();
+    $("#javascript").fadeIn();
+    $("#message").fadeIn();
   }
   else if (input > 200 && input < 2000){
-    $("#python").show();
-    $("#message").show();
+    $("#python").fadeIn();
+    $("#message").fadeIn();
   }
   else {
-    $("#cSharp").show();
-    $("#message").show();
+    $("#cSharp").fadeIn();
+    $("#message").fadeIn();
   }
 }
