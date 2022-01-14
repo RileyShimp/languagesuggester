@@ -1,5 +1,18 @@
 
+body {
+  background: linear-gradient(0.25turn, rgb(79, 78, 80), rgb(225, 224, 224), rgb(96, 96, 96));
+}
 
+header {
+  text-align: center;
+  border-bottom: solid black 1px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+label {
+  font-size: 1.5em;
+}
 
 #ruby {
   display: none;
@@ -15,4 +28,11 @@
 
 #cSharp {
   display: none;
+}
+
+#result {
+  font-size: 5em;
+  text-align: center;
+  margin-top: 30px;
+  border-top: solid black 1px;
 }
