@@ -2,9 +2,7 @@ $(document).ready(function() {
   $("form").submit(function(event){
     event.preventDefault();
     const name = $("input#name").val();
-
     $(".nameresult").text(name);
-
     addTo((parseInt($("#music").val()))+(parseInt($("#food").val()))+(parseInt($("#princess").val()))+(parseInt($("#pets").val()))+(parseInt($("#giveUp").val())));
   });
 });

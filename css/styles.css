@@ -1,22 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-  background: linear-gradient(0.25turn, rgb(79, 78, 80), rgb(225, 224, 224), rgb(96, 96, 96));
+  background: linear-gradient(0.25turn, rgb(203, 153, 126), rgb(221, 190, 169), rgb(255, 232, 214), rgb(183, 183, 164), rgb(165, 165, 141), rgb(107, 112, 92));
+  font-family: 'Bebas Neue';
 }
 
 header {
+  font-size: 6em;
   text-align: center;
-  border-bottom: solid black 1px;
+  border: solid rgb(107, 112, 92) 5px;
+  border-radius:10%;
   margin-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
+  background: rgb(255, 232, 214);
+  padding: 30px;
 }
 
-.namebox {
-  border-bottom: solid black 1px;
+header h4 {
+  color: rgb(78, 82, 67);
+}
+
+.formbox {
+  background: rgb(203, 153, 126);
+  color: rgb(41, 43, 36);
+  border: solid rgb(78, 82, 67) 5px;
+  border-radius: 10%;
   padding-bottom: 20px;
+  padding: 30px;
 }
 
 label {
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 #message {
@@ -25,22 +39,26 @@ label {
 
 #ruby {
   display: none;
+  color: black;
 }
 
 #javascript {
   display: none;
+  color: black;
 }
 
 #python {
   display: none;
+  color: black;
 }
 
 #cSharp {
   display: none;
+  color: black;
 }
 
 #result {
-  color: rgb(186, 13, 13);
+  color: rgb(60, 63, 52);
   font-size: 5em;
   text-align: center;
   margin-top: 30px;
@@ -51,5 +69,4 @@ label {
 
 .nameresult {
   color: black;
-  font-weight: bold
 }
