@@ -1,19 +1,18 @@
 
 
 function addTo(input) {
+  $("#ruby").hide();
+  $("#javascript").hide();
+  $("#python").hide();
   if (input === 0){
     $("#ruby").show();
   }
   else if (input > 0 && input < 200 ){
     $("#javascript").show();
   }
-  else if (input > 200 && input < 2000){
+  else if (input > 200 ){
     $("#python").show();
   }
-  else if (input > 2000){
-    $("#cSharp").show();
-  }
-
 }
 
 
