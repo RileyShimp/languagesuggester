@@ -14,52 +14,56 @@
       <h4>Let us make the hard decisions for you!</h4>
     </header>
     <form>
-        <div class="form-group">
-          <label for="music">Music Preference</label>
-          <select class="form-control" name="music" id="music">
-            <option value="1">Classical</option>
-            <option value="100">Electronic</option>
-            <option value="1000">Alternative</option>
-            <option value="0">Cats the Musical</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="food">Food Preference</label>
-          <select class="form-control" name="food" id="food">
-            <option value="1">Banana Bread</option>
-            <option value="100">Banana Candy</option>
-            <option value="1000">Banana Pudding</option>
-            <option value="0">Just a banana, please.</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="princess">Favorite Disney Princess</label>
-          <select class="form-control" name="princess" id="princess">
-            <option value="1">Cinderella</option>
-            <option value="100">Snow White</option>
-            <option value="1000">Rapunzel</option>
-            <option value="0">Shrek</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="pets">How many pets do you have? (children do not count)</label>
-          <select class="form-control" name="pets" id="pets">
-            <option value="1">One</option>
-            <option value="100">Two</option>
-            <option value="1000">Three</option>
-            <option value="0">None</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="giveUp">If you had to give up one of these things for the rest of your life, which would it be?</label>
-          <select class="form-control" name="giveUp" id="giveUp">
-            <option value="1">Video Games</option>
-            <option value="100">Internet</option>
-            <option value="1000">Caffeine</option>
-            <option value="0">Spouse</option>
-          </select>
-        </div>
-        <button type="submit">SUBMIT</button>
+      <div class="namebox">
+        <label for="name">What's your name?</label>
+        <input type="text" id="name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="music">Music Preference</label>
+        <select class="form-control" name="music" id="music">
+          <option value="1">Classical</option>
+          <option value="100">Electronic</option>
+          <option value="1000">Alternative</option>
+          <option value="0">Cats the Musical</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="food">Food Preference</label>
+        <select class="form-control" name="food" id="food">
+          <option value="1">Banana Bread</option>
+          <option value="100">Banana Candy</option>
+          <option value="1000">Banana Pudding</option>
+          <option value="0">Just a banana, please.</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="princess">Favorite Disney Princess</label>
+        <select class="form-control" name="princess" id="princess">
+          <option value="1">Cinderella</option>
+          <option value="100">Snow White</option>
+          <option value="1000">Rapunzel</option>
+          <option value="0">Shrek</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="pets">How many pets do you have? (children do not count)</label>
+        <select class="form-control" name="pets" id="pets">
+          <option value="1">One</option>
+          <option value="100">Two</option>
+          <option value="1000">Three</option>
+          <option value="0">None</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="giveUp">If you had to give up one of these things for the rest of your life, which would it be?</label>
+        <select class="form-control" name="giveUp" id="giveUp">
+          <option value="1">Video Games</option>
+          <option value="100">Internet</option>
+          <option value="1000">Caffeine</option>
+          <option value="0">Spouse</option>
+        </select>
+      </div>
+      <button type="submit">SUBMIT</button>
     </form>
     <div id="result">
       <h3>Your Ideal Language is :</h3>

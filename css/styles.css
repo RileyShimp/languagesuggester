@@ -10,6 +10,11 @@ header {
   margin-top: 50px;
 }
 
+.namebox {
+  border-bottom: solid black 1px;
+  padding-bottom: 20px;
+}
+
 label {
   font-size: 1.5em;
 }
