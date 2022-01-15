@@ -1,6 +1,6 @@
 # Programming Language Suggester
 
-#### [Riley Shimp](https://www.github.com/rileyshimp)
+### made by [Riley Shimp](https://www.github.com/rileyshimp)
 
 ## Technologies Used
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-This is a page made to help aspiring web developers choose which language they should learn first. Just fill out the form and find out which ones for you!
+This is a page made to help aspiring web developers choose which language they should learn first. Just fill out the form and find out which one's for you!
 
 ## Setup/Installation Requirements
 
