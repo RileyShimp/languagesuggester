@@ -9,6 +9,8 @@
 * HTML
 * CSS
 * JavaScript
+* Bootstrap
+* JQuery
 
 ## Description
 
@@ -16,7 +18,20 @@ This is a page made to help aspiring web developers choose which language they s
 
 ## Setup/Installation Requirements
 
-* Open this webpage in your preferred browser
+Open this [Github Pages Link](https://rileyshimp.github.io/languagesuggester/) in your browser.
+
+or follow the instructions below..
+
+### Step 1
+Clone the repository:
+``` 
+$ git clone https://github.com/RileyShimp/languagesuggester.git 
+```
+### Step 2
+Navigate to the `languageSuggester` directory on your computer.
+### Step 3
+Open `index.html` in your preferred browser
+
 
 ## Known Bugs
 

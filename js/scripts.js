@@ -7,8 +7,6 @@ $(document).ready(function() {
   });
 });
 
-
-
 function addTo(input) {
   $("#message").hide();
   $("#ruby").hide();
